@@ -20,7 +20,7 @@ Chat IA minimalista para PCs de bajos recursos usando DistilGPT2 (82M parámetro
 
 ```bash
 # 1. Clonar repositorio
-git clone https://github.com/tuusuario/chat-ia-liviano.git
+git clone https://github.com/servlet05/ChatAI.git
 cd chat-ia-liviano
 
 # 2. Crear entorno virtual (opcional pero recomendado)
