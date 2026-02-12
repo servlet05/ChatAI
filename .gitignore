@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.vscode/
+.idea/
+*.log
+.DS_Store
+modelos/__pycache__/
+*.sublime-*
+dist/
+build/
+*.egg-info/
