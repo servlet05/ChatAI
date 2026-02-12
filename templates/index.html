@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat IA Liviano</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>💬 Chat IA Minimalista</h1>
+            <div class="status">
+                <span id="status-indicator" class="status-offline">●</span>
+                <span id="status-text">Cargando modelo...</span>
+            </div>
+        </div>
+        
+        <div id="chat-messages" class="chat-messages">
+            <div class="message assistant">
+                <div class="message-content">
+                    👋 ¡Hola! Soy tu asistente IA. El modelo se está cargando, 
+                    esto tomará unos segundos...
+                </div>
+            </div>
+        </div>
+        
+        <div class="chat-input-container">
+            <textarea 
+                id="message-input" 
+                class="chat-input" 
+                placeholder="Escribe tu mensaje aquí..."
+                rows="1"
+            ></textarea>
+            <button id="send-button" class="send-button" disabled>
+                📤 Enviar
+            </button>
+        </div>
+        
+        <div class="chat-footer">
+            <span>Modelo: DistilGPT2 (82M parámetros)</span>
+            <span>⚡ Ultra liviano</span>
+        </div>
+    </div>
+    
+    <script src="/static/js/chat.js"></script>
+</body>
+</html>
